@@ -1,0 +1,8 @@
+name: Experimentals
+version: '${version}'
+main: codes.pmh.mc.experimentals.PluginMain
+api-version: 1.19
+commands:
+  island:
+    usage: /island <create|delete|go|sethome|info> <name>
+    description: Create/Delete/Teleport/Set home/Describe floating island
