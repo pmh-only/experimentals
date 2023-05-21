@@ -1,6 +1,5 @@
 package codes.pmh.mc.experimentals.completer;
 
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.plugin.java.JavaPlugin;
