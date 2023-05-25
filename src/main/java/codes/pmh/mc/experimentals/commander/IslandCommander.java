@@ -97,7 +97,7 @@ public class IslandCommander implements CommandExecutor {
                 return true;
             }
 
-            Location playerLocation = player.getLocation();
+            Location playerLocation = player.getLocation().add(0.5, 0.5, 0.5);
 
             islandService.deleteIsland(island);
             Island newIsland = islandService.createIsland(island.getName(), player, playerLocation.getBlockX(), playerLocation.getBlockZ());
